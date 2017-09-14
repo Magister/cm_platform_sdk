@@ -1291,6 +1291,17 @@ public final class CMSettings {
                 sBooleanValidator;
 
         /**
+         * Add a simple option to hide the su icon
+         * placed in status bar when a session is active
+         * The value is boolean (1 or 0).
+         */
+        public static final String SHOW_SU_INDICATOR =
+                "show_su_indicator";
+
+        /** @hide */
+        public static final Validator SHOW_SU_INDICATOR_VALIDATOR = sBooleanValidator;
+
+        /**
          * Enable looking up of phone numbers of nearby places
          * 0 = 0ff, 1 = on
          */
@@ -2114,6 +2125,7 @@ public final class CMSettings {
             VALIDATORS.put(BATTERY_LIGHT_FULL_COLOR, BATTERY_LIGHT_FULL_COLOR_VALIDATOR);
             VALIDATORS.put(ENABLE_MWI_NOTIFICATION, ENABLE_MWI_NOTIFICATION_VALIDATOR);
             VALIDATORS.put(PROXIMITY_ON_WAKE, PROXIMITY_ON_WAKE_VALIDATOR);
+            VALIDATORS.put(SHOW_SU_INDICATOR, SHOW_SU_INDICATOR_VALIDATOR);
             VALIDATORS.put(ENABLE_FORWARD_LOOKUP, ENABLE_FORWARD_LOOKUP_VALIDATOR);
             VALIDATORS.put(ENABLE_PEOPLE_LOOKUP, ENABLE_PEOPLE_LOOKUP_VALIDATOR);
             VALIDATORS.put(ENABLE_REVERSE_LOOKUP, ENABLE_REVERSE_LOOKUP_VALIDATOR);

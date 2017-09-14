@@ -1226,6 +1226,7 @@ package cyanogenmod.providers {
     field public static final java.lang.String NOTIFICATION_PLAY_QUEUE = "notification_play_queue";
     field public static final java.lang.String PEOPLE_LOOKUP_PROVIDER = "people_lookup_provider";
     field public static final java.lang.String PROXIMITY_ON_WAKE = "proximity_on_wake";
+    field public static final java.lang.String SHOW_SU_INDICATOR = "show_su_indicator";
     field public static final java.lang.String QS_SHOW_BRIGHTNESS_SLIDER = "qs_show_brightness_slider";
     field public static final java.lang.String RECENTS_SHOW_SEARCH_BAR = "recents_show_search_bar";
     field public static final java.lang.String REVERSE_LOOKUP_PROVIDER = "reverse_lookup_provider";
